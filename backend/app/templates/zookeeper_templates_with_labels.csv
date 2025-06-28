@@ -1,0 +1,51 @@
+EventId,EventTemplate,type,rec
+E1,******* GOODBYE /<*>:<*> ********,Normal,No action needed.
+E2,Accepted socket connection from /<*>:<*>,Connection Error,Verify connection settings.
+E3,autopurge.purgeInterval set to <*>,Timeout,Consider increasing timeout.
+E4,autopurge.snapRetainCount set to <*>,Disk Failure,Check disk status and logs.
+E5,Cannot open channel to <*> at election address /<*>:<*>,Permission Issue,Review user permissions.
+E6,caught end of stream exception,Memory Leak,Inspect memory usage patterns.
+E7,Client attempting to establish new session at /<*>:<*>,Config Warning,Check configuration syntax.
+E8,Client attempting to renew session <*> at /<*>:<*>,Leader Election,Monitor leader election process.
+E9,Closed socket connection for client /<*>:<*> (no session established for client),Session Error,Investigate session state.
+E10,Closed socket connection for client /<*>:<*> which had sessionid <*>,Client Disconnect,Check client-side logs.
+E11,"Connection broken for id <*>, my id = <*>, error =",Normal,No action needed.
+E12,Connection request from old client /<*>:<*>; will be dropped if server is in r-o mode,Connection Error,Verify connection settings.
+E13,Established session <*> with negotiated timeout <*> for client /<*>:<*>,Timeout,Consider increasing timeout.
+E14,Exception causing close of session <*> due to java.io.IOException: ZooKeeperServer not running,Disk Failure,Check disk status and logs.
+E15,"Expiring session <*>, timeout of <*>ms exceeded",Permission Issue,Review user permissions.
+E16,First is <*>,Memory Leak,Inspect memory usage patterns.
+E17,Follower sid: <*> : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@<*>,Config Warning,Check configuration syntax.
+E18,FOLLOWING,Leader Election,Monitor leader election process.
+E19,FOLLOWING - LEADER ELECTION TOOK - <*>,Session Error,Investigate session state.
+E20,Getting a snapshot from leader,Client Disconnect,Check client-side logs.
+E21,Got user-level KeeperException when processing sessionid:<*> type:create cxid:<*> zxid:<*> txntype:<*> reqpath:<*> Error Path:<*> Error:KeeperErrorCode = NodeExists for <*>,Normal,No action needed.
+E22,Have quorum of supporters; starting up and setting last processed zxid: <*>,Connection Error,Verify connection settings.
+E23,"Have smaller server identifier, so dropping the connection: (<*>, <*>)",Timeout,Consider increasing timeout.
+E24,Interrupted while waiting for message on queue,Disk Failure,Check disk status and logs.
+E25,Interrupting SendWorker,Permission Issue,Review user permissions.
+E26,LOOKING,Memory Leak,Inspect memory usage patterns.
+E27,maxSessionTimeout set to <*>,Config Warning,Check configuration syntax.
+E28,minSessionTimeout set to <*>,Leader Election,Monitor leader election process.
+E29,My election bind port: <*>/<*>:<*>,Session Error,Investigate session state.
+E30,"New election. My id =  <*>, proposed zxid=<*>",Client Disconnect,Check client-side logs.
+E31,Notification time out: <*>,Normal,No action needed.
+E32,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <*> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)",Connection Error,Verify connection settings.
+E33,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state)",Timeout,Consider increasing timeout.
+E34,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LEADING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)",Disk Failure,Check disk status and logs.
+E35,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)",Permission Issue,Review user permissions.
+E36,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state)",Memory Leak,Inspect memory usage patterns.
+E37,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)",Config Warning,Check configuration syntax.
+E38,Processed session termination for sessionid: <*>,Leader Election,Monitor leader election process.
+E39,Reading snapshot <*>,Session Error,Investigate session state.
+E40,Received connection request /<*>:<*>,Client Disconnect,Check client-side logs.
+E41,Revalidating client: <*>,Normal,No action needed.
+E42,Send worker leaving thread,Connection Error,Verify connection settings.
+E43,Sending DIFF,Timeout,Consider increasing timeout.
+E44,Server environment:<*>,Disk Failure,Check disk status and logs.
+E45,shutdown of request processor complete,Permission Issue,Review user permissions.
+E46,Snapshotting: <*> to <*>,Memory Leak,Inspect memory usage patterns.
+E47,Starting quorum peer,Config Warning,Check configuration syntax.
+E48,tickTime set to <*>,Leader Election,Monitor leader election process.
+E49,Unexpected exception causing shutdown while sock still open,Session Error,Investigate session state.
+E50,Unexpected Exception:,Client Disconnect,Check client-side logs.

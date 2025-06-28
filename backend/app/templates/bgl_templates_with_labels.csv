@@ -1,0 +1,121 @@
+EventId,EventTemplate,type,rec
+E1,"<*> ddr error(s) detected and corrected on rank <*>, symbol <*> over <*> seconds",Normal,No action needed.
+E2,"<*> ddr errors(s) detected and corrected on rank <*>, symbol <*>, bit <*>",Connection Error,Verify connection settings.
+E3,<*> double-hummer alignment exceptions,Timeout,Consider increasing timeout.
+E4,<*> floating point alignment exceptions,Disk Failure,Check disk status and logs.
+E5,<*> L3 EDRAM error(s) (dcr <*>) detected and corrected,Permission Issue,Review user permissions.
+E6,<*> L3 EDRAM error(s) (dcr <*>) detected and corrected over <*> seconds,Memory Leak,Inspect memory usage patterns.
+E7,<*> microseconds spent in the rbs signal handler during <*> calls. <*> microseconds was the maximum time for a single instance of a correctable ddr.,Config Warning,Check configuration syntax.
+E8,<*> torus receiver x+ input pipe error(s) (dcr <*>) detected and corrected,Leader Election,Monitor leader election process.
+E9,<*> torus receiver y+ input pipe error(s) (dcr <*>) detected and corrected,Session Error,Investigate session state.
+E10,<*> torus receiver z+ input pipe error(s) (dcr <*>) detected and corrected,Client Disconnect,Check client-side logs.
+E11,<*> torus sender z- retransmission error(s) (dcr <*>) detected and corrected over <*> seconds,Normal,No action needed.
+E12,"<*> total interrupts. 0 critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt.",Connection Error,Verify connection settings.
+E13,<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected,Timeout,Consider increasing timeout.
+E14,<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected over <*> seconds,Disk Failure,Check disk status and logs.
+E15,auxiliary processor.........................<*>,Permission Issue,Review user permissions.
+E16,byte ordering exception.....................<*>,Memory Leak,Inspect memory usage patterns.
+E17,Can not get assembly information for node card,Config Warning,Check configuration syntax.
+E18,"CE sym <*>, at <*>, mask <*>",Leader Election,Monitor leader election process.
+E19,ciod: cpu <*> at treeaddr <*> sent unrecognized message <*>,Session Error,Investigate session state.
+E20,ciod: duplicate canonical-rank <*> to logical-rank <*> mapping at line <*> of node map file /<*>,Client Disconnect,Check client-side logs.
+E21,ciod: Error creating node map from file <*>: Bad file descriptor,Normal,No action needed.
+E22,ciod: Error creating node map from file <*>: Block device required,Connection Error,Verify connection settings.
+E23,ciod: Error creating node map from file <*>: No child processes,Timeout,Consider increasing timeout.
+E24,ciod: Error creating node map from file <*>: Permission denied,Disk Failure,Check disk status and logs.
+E25,"ciod: Error loading /<*>: invalid or missing program image, Exec format error",Permission Issue,Review user permissions.
+E26,"ciod: Error loading /<*>: invalid or missing program image, Permission denied",Memory Leak,Inspect memory usage patterns.
+E27,"ciod: Error loading /<*>: program image too big, <*> > <*>",Config Warning,Check configuration syntax.
+E28,"ciod: Error loading <*>: invalid or missing program image, No such file or directory",Leader Election,Monitor leader election process.
+E29,ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*>:<*>: Link has been severed,Session Error,Investigate session state.
+E30,"ciod: Error reading message prefix on CioStream socket to <*>:<*>, Connection reset by peer",Client Disconnect,Check client-side logs.
+E31,"ciod: Error reading message prefix on CioStream socket to <*>:<*>, Connection timed out",Normal,No action needed.
+E32,"ciod: Error reading message prefix on CioStream socket to <*>:<*>, Link has been severed",Connection Error,Verify connection settings.
+E33,ciod: failed to read message prefix on control stream (CioStream socket to <*>:<*>,Timeout,Consider increasing timeout.
+E34,ciod: generated <*> core files for program <*>,Disk Failure,Check disk status and logs.
+E35,"ciod: In packet from node <*>.<*> (<*>), message code <*> is not <*> or <*> (softheader=<*> <*> <*> <*>)",Permission Issue,Review user permissions.
+E36,ciod: LOGIN chdir(<*>) failed: Input/output error,Memory Leak,Inspect memory usage patterns.
+E37,ciod: LOGIN chdir(<*>) failed: No such file or directory,Config Warning,Check configuration syntax.
+E38,ciod: Message code <*> is not <*> or <*>,Leader Election,Monitor leader election process.
+E39,ciod: Missing or invalid fields on line <*> of node map file /<*>,Session Error,Investigate session state.
+E40,ciod: pollControlDescriptors: Detected the debugger died.,Client Disconnect,Check client-side logs.
+E41,"ciod: Received signal <*>, code=<*>, errno=<*>, address=<*>",Normal,No action needed.
+E42,ciod: Z coordinate <*> exceeds physical dimension <*> at line <*> of node map file /<*>,Connection Error,Verify connection settings.
+E43,core configuration register: <*>,Timeout,Consider increasing timeout.
+E44,critical input interrupt (unit=<*> bit=<*>): warning for torus y+ wire,Disk Failure,Check disk status and logs.
+E45,critical input interrupt (unit=<*> bit=<*>): warning for torus z- wire,Permission Issue,Review user permissions.
+E46,"critical input interrupt (unit=<*> bit=<*>): warning for torus z+ wire, suppressing further interrupts of same type",Memory Leak,Inspect memory usage patterns.
+E47,"critical input interrupt (unit=<*> bit=<*>): warning for tree C1 wire, suppressing further interrupts of same type",Config Warning,Check configuration syntax.
+E48,critical input interrupt enable...<*>,Leader Election,Monitor leader election process.
+E49,data address space................<*>,Session Error,Investigate session state.
+E50,data address: <*>,Client Disconnect,Check client-side logs.
+E51,data cache search parity error detected. attempting to correct,Normal,No action needed.
+E52,data storage interrupt,Connection Error,Verify connection settings.
+E53,data store interrupt caused by dcbf.........<*>,Timeout,Consider increasing timeout.
+E54,data store interrupt caused by icbi.........<*>,Disk Failure,Check disk status and logs.
+E55,data TLB error interrupt,Permission Issue,Review user permissions.
+E56,dbcr0=<*> dbsr=<*> ccr0=<*>,Memory Leak,Inspect memory usage patterns.
+E57,debug interrupt enable............<*>,Config Warning,Check configuration syntax.
+E58,debug wait enable.................<*>,Leader Election,Monitor leader election process.
+E59,disable store gathering..................<*>,Session Error,Investigate session state.
+E60,"Error receiving packet on tree network, expecting type <*> instead of type <*> (softheader=<*> <*> <*> <*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*>",Client Disconnect,Check client-side logs.
+E61,exception syndrome register: <*>,Normal,No action needed.
+E62,floating point instr. enabled.....<*>,Connection Error,Verify connection settings.
+E63,floating pt ex mode <*> enable......<*>,Timeout,Consider increasing timeout.
+E64,force load/store alignment...............<*>,Disk Failure,Check disk status and logs.
+E65,fpr29=<*>,Permission Issue,Review user permissions.
+E66,fraction rounded.........................<*>,Memory Leak,Inspect memory usage patterns.
+E67,generating core.<*>,Config Warning,Check configuration syntax.
+E68,guaranteed data cache block touch........<*>,Leader Election,Monitor leader election process.
+E69,guaranteed instruction cache block touch.<*>,Session Error,Investigate session state.
+E70,iar <*> dear <*>,Client Disconnect,Check client-side logs.
+E71,icache prefetch depth....................<*>,Normal,No action needed.
+E72,icache prefetch threshold................<*>,Connection Error,Verify connection settings.
+E73,Ido chip status changed: <*> ip=<*> v=<*> t=<*> status=M <*>,Timeout,Consider increasing timeout.
+E74,"idoproxydb hit ASSERT condition: ASSERT expression=0 Source file=idotransportmgr.cpp Source line=<*> Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)",Disk Failure,Check disk status and logs.
+E75,instruction address space.........<*>,Permission Issue,Review user permissions.
+E76,instruction address: <*>,Memory Leak,Inspect memory usage patterns.
+E77,instruction cache parity error corrected,Config Warning,Check configuration syntax.
+E78,"Kernel detected <*> integer alignment exceptions (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*>",Leader Election,Monitor leader election process.
+E79,lr:<*> cr:<*> xer:<*> ctr:<*>,Session Error,Investigate session state.
+E80,Lustre mount FAILED : bglio<*> : block_id : location,Client Disconnect,Check client-side logs.
+E81,Lustre mount FAILED : bglio<*> : point <*>,Normal,No action needed.
+E82,MACHINE CHECK DCR read timeout (mc=<*> iar <*> lr <*>),Connection Error,Verify connection settings.
+E83,machine check enable..............<*>,Timeout,Consider increasing timeout.
+E84,machine check: i-fetch......................<*>,Disk Failure,Check disk status and logs.
+E85,machine state register: <*>,Permission Issue,Review user permissions.
+E86,Machine State Register: <*>,Memory Leak,Inspect memory usage patterns.
+E87,minus normalized number..................<*>,Config Warning,Check configuration syntax.
+E88,New ido chip inserted into the database: <*> ip=<*> v=<*> t=<*>,Leader Election,Monitor leader election process.
+E89,"NFS Mount failed on bglio<*>, slept <*> seconds, retrying (<*>)",Session Error,Investigate session state.
+E90,Node card is not fully functional,Client Disconnect,Check client-side logs.
+E91,"Node card status: ALERT <*>, ALERT <*>, ALERT <*>, ALERT <*> is (are) active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is not asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD is asserted. PGOOD error latch is clear. MPGOOD is OK. MPGOOD error latch is clear. The <*>.<*> volt rail is OK. The <*>.<*> volt rail is OK.",Normal,No action needed.
+E92,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <*>.<*> volt rail is OK. The <*>.<*> volt rail is OK.,Connection Error,Verify connection settings.
+E93,"Node card VPD check: U<*> node in processor card slot J<*> do not match. VPD ecid <*>, found <*>",Timeout,Consider increasing timeout.
+E94,NodeCard is not fully functional,Disk Failure,Check disk status and logs.
+E95,"PrepareForService shutting down Node card(mLctn(<*>), mCardSernum(<*>), mLp(<*>), mIp(<*>), mType(<*>)) as part of Service Action <*>",Permission Issue,Review user permissions.
+E96,"PrepareForService shutting down NodeCard(mLctn(<*>), mCardSernum(<*>), mLp(<*>), mIp(<*>), mType(<*>)) as part of Service Action <*>",Memory Leak,Inspect memory usage patterns.
+E97,"problem state (<*>=sup,<*>=usr).......<*>",Config Warning,Check configuration syntax.
+E98,program interrupt,Leader Election,Monitor leader election process.
+E99,program interrupt: fp cr field .............<*>,Session Error,Investigate session state.
+E100,program interrupt: fp cr update.............<*>,Client Disconnect,Check client-side logs.
+E101,program interrupt: illegal instruction......<*>,Normal,No action needed.
+E102,program interrupt: imprecise exception......<*>,Connection Error,Verify connection settings.
+E103,program interrupt: privileged instruction...<*>,Timeout,Consider increasing timeout.
+E104,program interrupt: trap instruction.........<*>,Disk Failure,Check disk status and logs.
+E105,program interrupt: unimplemented operation..<*>,Permission Issue,Review user permissions.
+E106,r24=<*> r25=<*> r26=<*> r27=<*>,Memory Leak,Inspect memory usage patterns.
+E107,rts internal error,Config Warning,Check configuration syntax.
+E108,rts panic! - stopping execution,Leader Election,Monitor leader election process.
+E109,rts tree/torus link training failed: wanted: <*> got: <*>,Session Error,Investigate session state.
+E110,rts: bad message header: expecting type <*> instead of type <*> (softheader=<*> <*> <*> <*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*>,Client Disconnect,Check client-side logs.
+E111,rts: kernel terminated for reason <*>,Normal,No action needed.
+E112,"rts: kernel terminated for reason <*>: bad message header: invalid cpu, type=<*>, cpu=<*>, index=<*>, total=<*>",Connection Error,Verify connection settings.
+E113,shutdown complete,Timeout,Consider increasing timeout.
+E114,size of scratchpad portion of L3.........<*> (<*>),Disk Failure,Check disk status and logs.
+E115,special purpose registers:,Permission Issue,Review user permissions.
+E116,store operation.............................<*>,Memory Leak,Inspect memory usage patterns.
+E117,suppressing further interrupts of same type,Config Warning,Check configuration syntax.
+E118,total of <*> ddr error(s) detected and corrected,Leader Election,Monitor leader election process.
+E119,total of <*> ddr error(s) detected and corrected over <*> seconds,Session Error,Investigate session state.
+E120,wait state enable.................<*>,Client Disconnect,Check client-side logs.

@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+  margin: 0;
+  padding: 0;
+}
+
+.table thead {
+  background-color: #e9ecef;
+}
+
+.table td, .table th {
+  padding: 0.75rem;
+  border: 1px solid #dee2e6;
+}

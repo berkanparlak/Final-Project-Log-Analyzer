@@ -1,0 +1,44 @@
+EventId,EventTemplate,type,rec
+E1,"[instance: <*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",Normal,No action needed.
+E2,[instance: <*>] Claim successful,Connection Error,Verify connection settings.
+E3,[instance: <*>] Creating image,Timeout,Consider increasing timeout.
+E4,[instance: <*>] Deleting instance files <*>,Disk Failure,Check disk status and logs.
+E5,[instance: <*>] Deletion of <*> complete,Permission Issue,Review user permissions.
+E6,"[instance: <*>] disk limit not specified, defaulting to unlimited",Memory Leak,Inspect memory usage patterns.
+E7,[instance: <*>] During sync_power_state the instance has a pending task (spawning). Skip.,Config Warning,Check configuration syntax.
+E8,[instance: <*>] Instance destroyed successfully.,Leader Election,Monitor leader election process.
+E9,[instance: <*>] Instance spawned successfully.,Session Error,Investigate session state.
+E10,"[instance: <*>] memory limit: <*>.<*> MB, free: <*>.<*> MB",Client Disconnect,Check client-side logs.
+E11,[instance: <*>] Terminating instance,Normal,No action needed.
+E12,[instance: <*>] Took <*>.<*> seconds to build instance.,Connection Error,Verify connection settings.
+E13,[instance: <*>] Took <*>.<*> seconds to deallocate network for instance.,Timeout,Consider increasing timeout.
+E14,[instance: <*>] Took <*>.<*> seconds to destroy the instance on the hypervisor.,Disk Failure,Check disk status and logs.
+E15,[instance: <*>] Took <*>.<*> seconds to spawn the instance on the hypervisor.,Permission Issue,Review user permissions.
+E16,"[instance: <*>] Total disk: <*> GB, used: <*>.<*> GB",Memory Leak,Inspect memory usage patterns.
+E17,"[instance: <*>] Total memory: <*> MB, used: <*>.<*> MB",Config Warning,Check configuration syntax.
+E18,"[instance: <*>] Total vcpu: <*> VCPU, used: <*>.<*> VCPU",Leader Election,Monitor leader election process.
+E19,"[instance: <*>] vcpu limit not specified, defaulting to unlimited",Session Error,Investigate session state.
+E20,[instance: <*>] VM Paused (Lifecycle Event),Client Disconnect,Check client-side logs.
+E21,[instance: <*>] VM Resumed (Lifecycle Event),Normal,No action needed.
+E22,[instance: <*>] VM Started (Lifecycle Event),Connection Error,Verify connection settings.
+E23,[instance: <*>] VM Stopped (Lifecycle Event),Timeout,Consider increasing timeout.
+E24,"<*> ""DELETE <*>"" status: <*> len: <*> time: <*>.<*>",Disk Failure,Check disk status and logs.
+E25,"<*> ""GET <*>"" status: <*> len: <*> time: <*>.<*>",Permission Issue,Review user permissions.
+E26,"<*> ""POST <*>"" status: <*> len: <*> time: <*>.<*>",Memory Leak,Inspect memory usage patterns.
+E27,Active base files: <*>,Config Warning,Check configuration syntax.
+E28,Auditing locally available compute resources for node <*>,Leader Election,Monitor leader election process.
+E29,Base or swap file too young to remove: <*>,Session Error,Investigate session state.
+E30,Compute_service record updated for <*>,Client Disconnect,Check client-side logs.
+E31,Creating event network-vif-plugged:<*>-<*>-<*>-<*>-<*> for instance <*>,Normal,No action needed.
+E32,Final resource view: name=<*> phys_ram=<*> used_ram=<*> phys_disk=<*> used_disk=<*> total_vcpus=<*> used_vcpus=<*> pci_stats=[],Connection Error,Verify connection settings.
+E33,HTTP exception thrown: No instances found for any event,Timeout,Consider increasing timeout.
+E34,image <*> at (<*>): checking,Disk Failure,Check disk status and logs.
+E35,"image <*> at (<*>): in use: on this node <*> local, <*> on other nodes sharing this instance storage",Permission Issue,Review user permissions.
+E36,Removable base files: <*>,Memory Leak,Inspect memory usage patterns.
+E37,Removing base or swap file: <*>,Config Warning,Check configuration syntax.
+E38,Running instance usage audit for host <*> from <*>-<*>-<*> <*>:<*>:<*> to <*>-<*>-<*> <*>:<*>:<*>. <*> instances.,Leader Election,Monitor leader election process.
+E39,Successfully synced instances from host '<*>'.,Session Error,Investigate session state.
+E40,The instance sync for host '<*>' did not match. Re-created its InstanceList.,Client Disconnect,Check client-side logs.
+E41,"Total usable vcpus: <*>, total allocated vcpus: <*>",Normal,No action needed.
+E42,Unknown base file: <*>,Connection Error,Verify connection settings.
+E43,"While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor.",Timeout,Consider increasing timeout.

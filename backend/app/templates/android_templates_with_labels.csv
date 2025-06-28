@@ -1,0 +1,167 @@
+EventId,EventTemplate,type,rec
+E1,*** register callback for <*>@<*>,Normal,No action needed.
+E2,*** unregister callback for <*>@<*>,Connection Error,Verify connection settings.
+E3,*** unregister callback for null,Timeout,Consider increasing timeout.
+E4,"[HSM] stayAwake false uid: <*>, pid: <*>",Disk Failure,Check disk status and logs.
+E5,[PhoneIntfMgr] getDataEnabled: subId=<*> phoneId=<*>,Permission Issue,Review user permissions.
+E6,[PhoneIntfMgr] getDataEnabled: subId=<*> retVal=true,Memory Leak,Inspect memory usage patterns.
+E7,<*>: <*> cannot be cast to <*>$Token,Config Warning,Check configuration syntax.
+E8,<*>: Must execute in UI,Leader Election,Monitor leader election process.
+E9,abandonAudioFocus,Session Error,Investigate session state.
+E10,"acquire lock=<*>, flags=<*>, tag=""<*>"", name=<*>, ws=<*>, uid=<*>, pid=<*>",Client Disconnect,Check client-side logs.
+E11,"Acquiring suspend blocker ""PowerManagerService.WakeLocks"".",Normal,No action needed.
+E12,ACTION_BATTERY_CHANGED AMP: <*>; Volt: <*>,Connection Error,Verify connection settings.
+E13,ACTION_BATTERY_CHANGED pluggedType: <*>,Timeout,Consider increasing timeout.
+E14,"ACTIVITY check resid: <*>, size=<*>",Disk Failure,Check disk status and logs.
+E15,"ActivityManagerService,attachApplication,callingPid = <*>",Permission Issue,Review user permissions.
+E16,"ActivityRecord info: ActivityInfo{<*> <*>}, euid: <*>",Memory Leak,Inspect memory usage patterns.
+E17,addNotification key=<*>|<*>|<*>|null|<*>,Config Warning,Check configuration syntax.
+E18,"animateCollapsePanels:flags=<*>, force=false, delayed=false, mExpandedVisible=false",Leader Election,Monitor leader election process.
+E19,"animateCollapsePanels:flags=<*>, force=false, delayed=false, mExpandedVisible=true",Session Error,Investigate session state.
+E20,"animateCollapsePanels:flags=<*>, force=true, delayed=true, mExpandedVisible=true",Client Disconnect,Check client-side logs.
+E21,"Animating brightness: target=<*>, rate=<*>",Normal,No action needed.
+E22,"Application requested orientation <*>, got rotation <*> which has compatible metrics",Connection Error,Verify connection settings.
+E23,applyOptionsLocked: Unknown animationType=<*>,Timeout,Consider increasing timeout.
+E24,ApStaDisabledState what=<*>,Disk Failure,Check disk status and logs.
+E25,Bad activity token: <*>@<*>,Permission Issue,Review user permissions.
+E26,battery changed pluggedType: <*>,Memory Leak,Inspect memory usage patterns.
+E27,cancelAutohide,Config Warning,Check configuration syntax.
+E28,"cancelNotification,cancelNotificationLocked,callingUid = <*>,callingPid = <*>",Leader Election,Monitor leader election process.
+E29,"cancelNotification,index:<*>",Session Error,Investigate session state.
+E30,"cancelNotificationLocked called,tell the app,reason = <*>",Client Disconnect,Check client-side logs.
+E31,"cancelNotificationLocked,remove =<*>",Normal,No action needed.
+E32,cancelNotificationLocked:<*>|<*>|<*>|null|<*>,Connection Error,Verify connection settings.
+E33,"cancelNotificationWithTag pid <*>,uid = <*>,tag = null,pkg =<*>,id =<*>",Timeout,Consider increasing timeout.
+E34,cancelPeek: false,Disk Failure,Check disk status and logs.
+E35,ChargingSpeed  Wattage: <*> ST: <*> --> <*>,Permission Issue,Review user permissions.
+E36,cleanUpApplicationRecord -- <*>,Memory Leak,Inspect memory usage patterns.
+E37,"cleanUpApplicationRecordLocked, pid: <*>, restart: false",Config Warning,Check configuration syntax.
+E38,"cleanUpApplicationRecordLocked, reset pid: <*>, euid: <*>",Leader Election,Monitor leader election process.
+E39,closeQs,Session Error,Investigate session state.
+E40,DefaultState what=<*>,Client Disconnect,Check client-side logs.
+E41,Destroying surface Surface(name=<*>) called by <*>,Normal,No action needed.
+E42,disable: < expand icons* alerts system_info* back home recent clock navigationbar search quick_settings >,Connection Error,Verify connection settings.
+E43,disable: < expand ICONS* alerts SYSTEM_INFO* back home recent clock navigationbar search quick_settings >,Timeout,Consider increasing timeout.
+E44,enqueueNotificationInternal: n.getKey = <*>,Disk Failure,Check disk status and logs.
+E45,enqueueNotificationInternal: pkg=<*> id=<*> notification=Notification(pri=<*> contentView=null vibrate=[<*>] sound=null tick defaults=<*> flags=<*> color=<*> category=msg vis=PRIVATE),Permission Issue,Review user permissions.
+E46,enqueueNotificationInternal: pkg=<*> id=<*> notification=Notification(pri=<*> contentView=null vibrate=[<*>] sound=null tick defaults=<*> flags=<*> color=<*> vis=PRIVATE),Memory Leak,Inspect memory usage patterns.
+E47,"flingToHeight: vel=<*>.<*>, expand=false, target=<*>.<*>, collapseSpeedUpFactor=<*>.<*>, expandBecauseOfFalsing=false",Config Warning,Check configuration syntax.
+E48,"flingToHeight: vel=<*>.<*>, expand=true, target=<*>.<*>, collapseSpeedUpFactor=<*>.<*>, expandBecauseOfFalsing=false",Leader Election,Monitor leader election process.
+E49,getAllCellInfo is blocked by permission manager . callingPackage = <*>,Session Error,Investigate session state.
+E50,getCellLocation is blocked by permission manager uid:<*> pid:<*>,Client Disconnect,Check client-side logs.
+E51,getDevicesForStream  streamType: <*>,Normal,No action needed.
+E52,getLastAudibleStreamVolume  treamType: <*>,Connection Error,Verify connection settings.
+E53,getMode...,Timeout,Consider increasing timeout.
+E54,getNeighboringCellInfo calling app is <*>,Disk Failure,Check disk status and logs.
+E55,"getRecentTasks: num=<*>,flags=<*>,totalTasks=<*>",Permission Issue,Review user permissions.
+E56,getRecentTasks: topActivity=ComponentInfo{<*><*>.<*>},Memory Leak,Inspect memory usage patterns.
+E57,getRingerMode...,Config Warning,Check configuration syntax.
+E58,getRingtonePlayer...,Leader Election,Monitor leader election process.
+E59,getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output,Session Error,Investigate session state.
+E60,getStreamVolume  treamType: <*>,Client Disconnect,Check client-side logs.
+E61,getTasks: caller <*> does not hold REAL_GET_TASKS; limiting output,Normal,No action needed.
+E62,handleBatteryUpdate,Connection Error,Verify connection settings.
+E63,handleTimeUpdate,Timeout,Consider increasing timeout.
+E64,HBM brightnessIn =<*>,Disk Failure,Check disk status and logs.
+E65,HBM brightnessOut =<*>,Permission Issue,Review user permissions.
+E66,instantCollapse,Memory Leak,Inspect memory usage patterns.
+E67,"interceptKeyBeforeQueueing: key <*> , result : <*>",Config Warning,Check configuration syntax.
+E68,interceptKeyTq keycode=<*> interactive=true keyguardActive=false policyFlags=<*> down false canceled false,Leader Election,Monitor leader election process.
+E69,interceptKeyTq keycode=<*> interactive=true keyguardActive=false policyFlags=<*> down true canceled false,Session Error,Investigate session state.
+E70,isBluetoothA2dpOn...,Client Disconnect,Check client-side logs.
+E71,isBluetoothScoOn...,Normal,No action needed.
+E72,isMusicActive...,Connection Error,Verify connection settings.
+E73,isSimPinSecure mSimDatas is null or empty,Timeout,Consider increasing timeout.
+E74,isWiredHeadsetOn...,Disk Failure,Check disk status and logs.
+E75,Killing <*>:<*><*> (adj <*>): empty for <*>,Permission Issue,Review user permissions.
+E76,logNotificationVisibilityChanges runInThread over,Memory Leak,Inspect memory usage patterns.
+E77,logNotificationVisibilityChanges runInThread start,Config Warning,Check configuration syntax.
+E78,makeExpandedInvisible: mExpandedVisible=false,Leader Election,Monitor leader election process.
+E79,makeExpandedInvisible: mExpandedVisible=true,Session Error,Investigate session state.
+E80,Marking notification as seen <*>|<*>|<*>|null|<*>,Client Disconnect,Check client-side logs.
+E81,mHeadsUpExistenceChangedRunnable,Normal,No action needed.
+E82,mVisiblity.getValue is false,Connection Error,Verify connection settings.
+E83,"new Process app=ProcessRecord{<*> <*>:<*>:qzone<*>}, name: <*>:qzone, euid: <*>",Timeout,Consider increasing timeout.
+E84,"notifyUiVisibilityChanged:vis=<*>, SystemUiVisibility=<*>",Disk Failure,Check disk status and logs.
+E85,onExpandingFinished,Permission Issue,Review user permissions.
+E86,onExpandingStarted,Memory Leak,Inspect memory usage patterns.
+E87,"onInterceptTouchEvent MotionEvent { action=ACTION_DOWN, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>.<*>, y[<*>]=<*>.<*>, toolType[<*>]=TOOL_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=false",Config Warning,Check configuration syntax.
+E88,"onInterceptTouchEvent MotionEvent { action=ACTION_UP, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>.<*>, y[<*>]=<*>.<*>, toolType[<*>]=TOOL_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=false",Leader Election,Monitor leader election process.
+E89,onNotificationClick called,Session Error,Investigate session state.
+E90,onNotificationExpansionChanged called,Client Disconnect,Check client-side logs.
+E91,onNotificationVisibilityChanged called,Normal,No action needed.
+E92,"onReceive, action:<*>",Connection Error,Verify connection settings.
+E93,"onTouchEvent::<*>, x=<*>.<*>, y=<*>.<*>",Timeout,Consider increasing timeout.
+E94,onTrackingStarted,Disk Failure,Check disk status and logs.
+E95,onTrackingStopped: true,Permission Issue,Review user permissions.
+E96,"orientation change is complete, call stopFreezingDisplayLocked",Memory Leak,Inspect memory usage patterns.
+E97,"overlapAmount:<*>.<*>, previousNotificationEnd:<*>.<*>, newYTranslation:<*>.<*>, location:<*>, i:<*>, getTopPadding:<*>.<*>, getLocationOnScreen():<*>",Config Warning,Check configuration syntax.
+E98,Pid:<*> MediaPlayer destructor,Leader Election,Monitor leader election process.
+E99,playSoundEffect   effectType: <*>,Session Error,Investigate session state.
+E100,"printFreezingDisplayLogsopening app wtoken = AppWindowToken{<*> token=Token{<*> ActivityRecord{<*> u0 <*>/.<*> t761}}}, allDrawn= false, startingDisplayed =  false, startingMoved =  false, isRelaunching =  false",Client Disconnect,Check client-side logs.
+E101,Process <*>:qzone (pid <*>) has died,Normal,No action needed.
+E102,querySoundEffectsEnabled...,Connection Error,Verify connection settings.
+E103,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=<*>,adj=<*>.0userId=<*>",Timeout,Consider increasing timeout.
+E104,received broadcast <*>,Disk Failure,Check disk status and logs.
+E105,Received TIME_TICK alarm; rescheduling,Permission Issue,Review user permissions.
+E106,RefreshBatteryInfo isBatteryLow: <*>,Memory Leak,Inspect memory usage patterns.
+E107,registerCallback not in UI.,Config Warning,Check configuration syntax.
+E108,"release:lock=<*>, flg=<*>, tag=""<*>"", name=<*>, ws=<*>, uid=<*>, pid=<*>",Leader Election,Monitor leader election process.
+E109,"Releasing suspend blocker ""PowerManagerService.WakeLocks"".",Session Error,Investigate session state.
+E110,remove(PendingIntent{<*>: PendingIntentRecord{<*> <*> broadcastIntent}}) changed bounds; rebatching,Client Disconnect,Check client-side logs.
+E111,removeNotification:<*>|<*>|<*>|null|<*>,Normal,No action needed.
+E112,removeNotificationChildren,Connection Error,Verify connection settings.
+E113,resumeSuspendedAutohide,Timeout,Consider increasing timeout.
+E114,"rotationForOrientationLw(orient=<*>, last=<*>); user=<*> USER_ROTATION_LOCKED",Disk Failure,Check disk status and logs.
+E115,schedulePeek,Permission Issue,Review user permissions.
+E116,scheduleTimeTickEvent triggerAtTime = <*>,Memory Leak,Inspect memory usage patterns.
+E117,Scheduling restart of crashed service <*>.<*> in <*>,Config Warning,Check configuration syntax.
+E118,Screen frozen for <*> due to Window{<*> u0 <*>.<*>},Leader Election,Monitor leader election process.
+E119,"sending alarm Alarm{<*> type <*> when <*> PendingIntent{<*>: PendingIntentRecord{<*> <*> broadcastIntent}}},repeatInterval = <*>,listenerTag =null",Session Error,Investigate session state.
+E120,"sending alarm Alarm{<*> type <*> when <*> PendingIntent{<*>: PendingIntentRecord{<*> android broadcastIntent}}},repeatInterval = <*>,listenerTag =time_tick",Client Disconnect,Check client-side logs.
+E121,Sending non-protected broadcast <*> from system <*>:<*> pkg <*>,Normal,No action needed.
+E122,"setDataSource(<*>, <*>, <*>)",Connection Error,Verify connection settings.
+E123,setLightsOn(true),Timeout,Consider increasing timeout.
+E124,setSpeakerphoneOn  on: true,Disk Failure,Check disk status and logs.
+E125,setSpeakerphoneOn on:true,Permission Issue,Review user permissions.
+E126,"setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)",Memory Leak,Inspect memory usage patterns.
+E127,setWiredDeviceConnectionState  type: <*>  state: <*>,Config Warning,Check configuration syntax.
+E128,shouldBlockLocation  ret:false,Leader Election,Monitor leader election process.
+E129,shouldBlockLocation  ret:true,Session Error,Investigate session state.
+E130,shouldBlockLocation running ...,Client Disconnect,Check client-side logs.
+E131,Skipping AppWindowToken{<*> token=Token{<*> ActivityRecord{<*> u0 <*>}}} -- going to hide,Normal,No action needed.
+E132,"Skipping, withExcluded: false, tr.intent:Intent { act=<*> dat=<*> flg=<*> cmp=<*> (has extras) }",Connection Error,Verify connection settings.
+E133,"Skipping, withExcluded: false, tr.intent:Intent { act=<*> dat=<*> typ=<*> flg=<*> cmp=<*> (has extras) }",Timeout,Consider increasing timeout.
+E134,"Skipping, withExcluded: false, tr.intent:Intent { act=<*> flg=<*> cmp=<*> (has extras) }",Disk Failure,Check disk status and logs.
+E135,"Skipping, withExcluded: false, tr.intent:Intent { flg=<*> cmp=<*> (has extras) }",Permission Issue,Review user permissions.
+E136,"Skipping, withExcluded: false, tr.intent:Intent { flg=<*> cmp=<*> bnds=<*> }",Memory Leak,Inspect memory usage patterns.
+E137,"Start dump, calling from : pid=<*>, uid=<*>",Config Warning,Check configuration syntax.
+E138,Start proc <*>:<*>:qzone<*> for service <*>.<*>,Leader Election,Monitor leader election process.
+E139,START u0 {act=<*> cat=[<*>] flg=<*> cmp=<*> bnds=<*>} from uid <*> on display <*>,Session Error,Investigate session state.
+E140,START u0 {act=<*> flg=<*> cmp=<*> (has extras)} from uid <*> on display <*>,Client Disconnect,Check client-side logs.
+E141,START u0 {flg=<*> cmp=<*> (has extras)} from uid <*> on display <*>,Normal,No action needed.
+E142,startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { flg=<*> cmp=<*> (has extras) },Connection Error,Verify connection settings.
+E143,startAnimation begin,Timeout,Consider increasing timeout.
+E144,startAnimation end,Disk Failure,Check disk status and logs.
+E145,"state.clipTopAmount:<*>, i:<*>",Permission Issue,Review user permissions.
+E146,stopWifiDisplayScanLocked mWifiDisplayScanRequestCount=<*>,Memory Leak,Inspect memory usage patterns.
+E147,stopWifiDisplayScanLocked record.mWifiDisplayScanRequested=false,Config Warning,Check configuration syntax.
+E148,suspendAutohide,Leader Election,Monitor leader election process.
+E149,"Taking screenshot from Surface with crop:[Rect(<*>, <*> - <*>, <*>)], width:[<*>], height:[<*>], minLayer:[<*>], maxLayer:[<*>], inRotation:[false], rot:[<*>]",Session Error,Investigate session state.
+E150,The change in focus caused us to need to do a layout begin,Client Disconnect,Check client-side logs.
+E151,The change in focus caused us to need to do a layout end,Normal,No action needed.
+E152,Unable to start service Intent { act=<*> cmp=<*>.<*> } U=<*>: not found,Connection Error,Verify connection settings.
+E153,unregisterAudioFocusListener...,Timeout,Consider increasing timeout.
+E154,updateChargingLocked: charging=false,Disk Failure,Check disk status and logs.
+E155,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=<*>.<*>",Permission Issue,Review user permissions.
+E156,"updateClipping isOverlap:true, getTopPadding=<*>.<*>, Translation=<*>.<*>",Memory Leak,Inspect memory usage patterns.
+E157,updateDimmedActivatedHideSensitive overlap:false,Config Warning,Check configuration syntax.
+E158,updateDimmedActivatedHideSensitive overlap:true,Leader Election,Monitor leader election process.
+E159,"updateIsPoweredLocked: wasPowered=false, mIsPowered=false, oldPlugType=<*>, mPlugType=<*>, mBatteryLevel=<*>",Session Error,Investigate session state.
+E160,"updateLightsLocked,mInCall =false,mScreenOn = true,ledNotification == null?false",Client Disconnect,Check client-side logs.
+E161,"updateLightsLocked,mInCall =false,mScreenOn = true,ledNotification == null?true",Normal,No action needed.
+E162,"updateLightsLocked,turn off notificationLight",Connection Error,Verify connection settings.
+E163,"updateNotificationShade: total=<*>, active=<*>",Timeout,Consider increasing timeout.
+E164,"userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>",Disk Failure,Check disk status and logs.
+E165,visible is <*>,Permission Issue,Review user permissions.
+E166,visible is <*> gt <*>,Memory Leak,Inspect memory usage patterns.

@@ -1,0 +1,37 @@
+EventId,EventTemplate,type,rec
+E1,attempt_<*>: Committed,Normal,No action needed.
+E2,"Block <*> stored as bytes in memory (estimated size <*>, free <*>)",Connection Error,Verify connection settings.
+E3,"Block <*> stored as values in memory (estimated size <*>, free <*>)",Timeout,Consider increasing timeout.
+E4,Changing modify acls to: <*>,Disk Failure,Check disk status and logs.
+E5,Changing view acls to: <*>,Permission Issue,Review user permissions.
+E6,Connecting to driver: spark://<*>,Memory Leak,Inspect memory usage patterns.
+E7,Created local directory at <*>,Config Warning,Check configuration syntax.
+E8,File Output Committer Algorithm version is <*>,Leader Election,Monitor leader election process.
+E9,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Session Error,Investigate session state.
+E10,Found block rdd_<*> locally,Client Disconnect,Check client-side logs.
+E11,Got assigned task <*>,Normal,No action needed.
+E12,Input split: hdfs://<*>,Connection Error,Verify connection settings.
+E13,"mapred.job.id is deprecated. Instead, use mapreduce.job.id",Timeout,Consider increasing timeout.
+E14,"mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id",Disk Failure,Check disk status and logs.
+E15,"mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap",Permission Issue,Review user permissions.
+E16,"mapred.task.partition is deprecated. Instead, use mapreduce.task.partition",Memory Leak,Inspect memory usage patterns.
+E17,"mapred.tip.id is deprecated. Instead, use mapreduce.task.id",Config Warning,Check configuration syntax.
+E18,MemoryStore started with capacity <*> GB,Leader Election,Monitor leader election process.
+E19,"Partition rdd_<*> not found, computing it",Session Error,Investigate session state.
+E20,Reading broadcast variable <*> took <*> ms,Client Disconnect,Check client-side logs.
+E21,Registered BlockManager,Normal,No action needed.
+E22,"Registered signal handlers for [TERM, HUP, INT]",Connection Error,Verify connection settings.
+E23,Remoting started; listening on addresses :[akka.tcp://<*>],Timeout,Consider increasing timeout.
+E24,Running task <*> in stage <*> (TID <*>),Disk Failure,Check disk status and logs.
+E25,Saved output of task 'attempt_<*>' to hdfs://<*>,Permission Issue,Review user permissions.
+E26,"SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)",Memory Leak,Inspect memory usage patterns.
+E27,Server created on <*>,Config Warning,Check configuration syntax.
+E28,Slf4jLogger started,Leader Election,Monitor leader election process.
+E29,Started reading broadcast variable <*>,Session Error,Investigate session state.
+E30,Starting executor ID <*> on host <*>,Client Disconnect,Check client-side logs.
+E31,Starting remoting,Normal,No action needed.
+E32,Successfully registered with driver,Connection Error,Verify connection settings.
+E33,Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port <*>.,Timeout,Consider increasing timeout.
+E34,Successfully started service 'sparkExecutorActorSystem' on port <*>.,Disk Failure,Check disk status and logs.
+E35,"Times: total = <*>, boot = <*>, init = <*>, finish = <*>",Permission Issue,Review user permissions.
+E36,Trying to register BlockManager,Memory Leak,Inspect memory usage patterns.
