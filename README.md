@@ -1,11 +1,11 @@
 # Final-Project-Log-Analyzer
-# 🧠 AI Destekli Log Anomali Tespit Sistemi
+# AI Destekli Log Anomali Tespit Sistemi
 
 Bu proje, dağıtık sistemlerden gelen log verilerini gerçek zamanlı olarak analiz eden ve **anomalileri yapay zekâ desteğiyle tespit eden bir mikroservis tabanlı sistemdir**.
 
 ---
 
-## 🔍 Proje Özeti
+## Proje Özeti
 
 Log verileri sistemlerin iç işleyişini anlamak ve hataları erken tespit edebilmek için kritik öneme sahiptir. Bu projede amaç, büyük miktarda log verisi arasından **normal dışı davranışları otomatik olarak tespit etmek** ve kullanıcıya açıklayıcı öneriler sunmaktır.
 
