@@ -83,6 +83,6 @@ PostgreSQL, Kafka, Docker
 
 TF-IDF, Isolation Forest (AI modeli)
 
-Geliştirici
+## Geliştirici
 Berkan Parlak
 Bilgisayar Mühendisliği Bitirme Projesi – 2025
