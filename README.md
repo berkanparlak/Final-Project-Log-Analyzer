@@ -38,11 +38,8 @@ Model `train_advanced_model.py` ile eğitilir ve `backend/app/advanced_model.pkl
 
 ---
 
----
-
 ## Kurulum ve Başlatma
 
-```bash
 # 1. Modeli eğit
 python backend/app/train_advanced_model.py
 
